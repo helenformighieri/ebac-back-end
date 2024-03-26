@@ -4,7 +4,7 @@ public class Pessoa {
     String nome;
     String sexo;
 
-    Pessoa(String nome, String sexo) {
+    public Pessoa(String nome, String sexo) {
         this.nome = nome;
         this.sexo = sexo;
     }
@@ -13,7 +13,7 @@ public class Pessoa {
         return nome;
     }
 
-    String getSexo() {
+    public String getSexo() {
         return sexo;
     }
 }
